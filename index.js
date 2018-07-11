@@ -5,7 +5,7 @@ import Header from './components/Header';
 
 // creare un componenete
 const App = () => (
-    <Header />
+    <Header headerText={'Albums!!!'} />
 );
 
 // renderizzarlo come app
