@@ -19,7 +19,7 @@ const styles = {
         paddingTop: 15,
         shadowColour: '#000',
         shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 3,
+        shadowOpacity: 0.3,
         position: 'relative'
     },
     textStyle: {
