@@ -1,13 +1,12 @@
 // importare la libreria per creare un componente
 import React from 'react';
-import {Text, AppRegistry} from 'react-native';
+import { AppRegistry } from 'react-native';
+import Header from './components/Header';
 
 // creare un componenete
-const App = () => {
-    return(
-        <Text>Bananaaaaa</Text>
-    );
-};
+const App = () => (
+    <Header />
+);
 
 // renderizzarlo come app
-AppRegistry.registerComponent('Albums',()=> App)
+AppRegistry.registerComponent('Albums', () => App);
