@@ -22,6 +22,10 @@ const AlbumDetail = ({ album }) => {
                         source={{ uri: thumbnail_image }}
                     />
                 </View>
+                <View>
+                    <Text>{artist}</Text>
+
+                </View>
                 <View style={headerContentStyle}>
                     <Text style={headerTextStyle}>{title}</Text>
                     <Text>{artist}</Text>
